@@ -1,0 +1,128 @@
+{
+  "info": {
+    "_postman_id": "1ea20989-3860-4c4f-8aee-f00d0c11b8c1",
+    "name": "ss12_it211_bai2",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "50951921",
+    "_collection_link": "https://go.postman.co/collection/50951921-1ea20989-3860-4c4f-8aee-f00d0c11b8c1?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Kiểm tra lấy danh sách",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"title\": \"Java Spring\", \r\n\"author\": \"Linh\", \r\n\"price\": 150\r\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8080/api/courses",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "courses"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Kiểm tra xử lý lỗi ID không tồn tại",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"title\": \"Java Spring\", \r\n\"author\": \"Linh\", \r\n\"price\": 150\r\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8080/api/courses/99",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "courses",
+            "99"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Lấy khóa học có tồn tại",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/api/courses/1",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "courses",
+            "1"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Thêm kháo học",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"courseName\": \"Java Spring Boot Master\",\r\n    \"instructor\": \"Linh\",\r\n    \"durationHours\": 60,\r\n    \"fee\": 99.0\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/api/courses",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "courses"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
