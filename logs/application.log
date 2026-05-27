@@ -1,0 +1,130 @@
+2026-05-27T21:19:12.736+07:00  INFO 2948 --- [Session12_IT211_Bai2] [restartedMain] c.e.s.Session12It211Bai2Application      : Starting Session12It211Bai2Application using Java 17.0.12 with PID 2948 (C:\Users\h\Downloads\Session12_IT211_Bai2\build\classes\java\main started by h in C:\Users\h\Downloads\Session12_IT211_Bai2)
+2026-05-27T21:19:12.740+07:00  INFO 2948 --- [Session12_IT211_Bai2] [restartedMain] c.e.s.Session12It211Bai2Application      : No active profile set, falling back to 1 default profile: "default"
+2026-05-27T21:19:12.794+07:00  INFO 2948 --- [Session12_IT211_Bai2] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-05-27T21:19:12.797+07:00  INFO 2948 --- [Session12_IT211_Bai2] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-05-27T21:19:13.329+07:00  INFO 2948 --- [Session12_IT211_Bai2] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-27T21:19:13.349+07:00  INFO 2948 --- [Session12_IT211_Bai2] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 0 JPA repository interfaces.
+2026-05-27T21:19:13.844+07:00  INFO 2948 --- [Session12_IT211_Bai2] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-05-27T21:19:13.855+07:00  INFO 2948 --- [Session12_IT211_Bai2] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-27T21:19:13.856+07:00  INFO 2948 --- [Session12_IT211_Bai2] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-27T21:19:13.901+07:00  INFO 2948 --- [Session12_IT211_Bai2] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1103 ms
+2026-05-27T21:19:14.077+07:00  INFO 2948 --- [Session12_IT211_Bai2] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-27T21:19:14.134+07:00  INFO 2948 --- [Session12_IT211_Bai2] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-05-27T21:19:14.628+07:00  INFO 2948 --- [Session12_IT211_Bai2] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-27T21:19:14.662+07:00  INFO 2948 --- [Session12_IT211_Bai2] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-27T21:19:14.938+07:00  INFO 2948 --- [Session12_IT211_Bai2] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@149313ab
+2026-05-27T21:19:14.940+07:00  INFO 2948 --- [Session12_IT211_Bai2] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-27T21:19:14.989+07:00  WARN 2948 --- [Session12_IT211_Bai2] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-05-27T21:19:15.005+07:00  INFO 2948 --- [Session12_IT211_Bai2] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/ss12_bai2_it211?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 9.7
+	Default catalog/schema: ss12_bai2_it211/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-27T21:19:15.386+07:00  INFO 2948 --- [Session12_IT211_Bai2] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-27T21:19:15.395+07:00  INFO 2948 --- [Session12_IT211_Bai2] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-27T21:19:15.458+07:00  WARN 2948 --- [Session12_IT211_Bai2] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-27T21:19:15.795+07:00  INFO 2948 --- [Session12_IT211_Bai2] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-05-27T21:19:15.801+07:00  INFO 2948 --- [Session12_IT211_Bai2] [restartedMain] c.e.s.Session12It211Bai2Application      : Started Session12It211Bai2Application in 3.509 seconds (process running for 4.218)
+2026-05-27T21:19:57.000+07:00  INFO 2948 --- [Session12_IT211_Bai2] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-27T21:19:57.000+07:00  INFO 2948 --- [Session12_IT211_Bai2] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-27T21:19:57.000+07:00  INFO 2948 --- [Session12_IT211_Bai2] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-05-27T21:19:57.088+07:00  INFO 2948 --- [Session12_IT211_Bai2] [http-nio-8080-exec-2] c.e.s.controller.CourseController        : Request: GET /api/courses
+2026-05-27T21:21:26.608+07:00  INFO 2948 --- [Session12_IT211_Bai2] [http-nio-8080-exec-5] c.e.s.controller.CourseController        : Request: GET /api/courses/99
+2026-05-27T21:21:26.608+07:00  WARN 2948 --- [Session12_IT211_Bai2] [http-nio-8080-exec-5] c.e.s.service.CourseService              : Không tìm thấy khóa học với ID: 99
+2026-05-27T21:22:23.981+07:00  INFO 2948 --- [Session12_IT211_Bai2] [http-nio-8080-exec-6] c.e.s.controller.CourseController        : Request: GET /api/courses/1
+2026-05-27T21:22:23.981+07:00  WARN 2948 --- [Session12_IT211_Bai2] [http-nio-8080-exec-6] c.e.s.service.CourseService              : Không tìm thấy khóa học với ID: 1
+2026-05-27T21:22:55.403+07:00  INFO 2948 --- [Session12_IT211_Bai2] [http-nio-8080-exec-9] c.e.s.controller.CourseController        : Request: GET /api/courses
+2026-05-27T21:23:03.908+07:00  INFO 2948 --- [Session12_IT211_Bai2] [http-nio-8080-exec-7] c.e.s.controller.CourseController        : Request: GET /api/courses/1
+2026-05-27T21:23:03.908+07:00  WARN 2948 --- [Session12_IT211_Bai2] [http-nio-8080-exec-7] c.e.s.service.CourseService              : Không tìm thấy khóa học với ID: 1
+2026-05-27T21:23:33.521+07:00  INFO 2948 --- [Session12_IT211_Bai2] [http-nio-8080-exec-8] c.e.s.controller.CourseController        : Request: GET /api/courses
+2026-05-27T21:23:44.592+07:00  INFO 2948 --- [Session12_IT211_Bai2] [http-nio-8080-exec-10] c.e.s.controller.CourseController        : Request: GET /api/courses/1
+2026-05-27T21:23:44.592+07:00  WARN 2948 --- [Session12_IT211_Bai2] [http-nio-8080-exec-10] c.e.s.service.CourseService              : Không tìm thấy khóa học với ID: 1
+2026-05-27T21:24:16.769+07:00  WARN 2948 --- [Session12_IT211_Bai2] [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2026-05-27T21:24:47.557+07:00  INFO 2948 --- [Session12_IT211_Bai2] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2026-05-27T21:24:47.565+07:00  INFO 2948 --- [Session12_IT211_Bai2] [Thread-1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-27T21:24:47.741+07:00  INFO 2948 --- [Session12_IT211_Bai2] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-27T21:24:47.747+07:00  INFO 2948 --- [Session12_IT211_Bai2] [Thread-1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-27T21:24:47.752+07:00  INFO 2948 --- [Session12_IT211_Bai2] [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-05-27T21:24:47.766+07:00  INFO 2948 --- [Session12_IT211_Bai2] [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-05-27T21:24:47.845+07:00  INFO 2948 --- [Session12_IT211_Bai2] [restartedMain] c.e.s.Session12It211Bai2Application      : Starting Session12It211Bai2Application using Java 17.0.12 with PID 2948 (C:\Users\h\Downloads\Session12_IT211_Bai2\build\classes\java\main started by h in C:\Users\h\Downloads\Session12_IT211_Bai2)
+2026-05-27T21:24:47.846+07:00  INFO 2948 --- [Session12_IT211_Bai2] [restartedMain] c.e.s.Session12It211Bai2Application      : No active profile set, falling back to 1 default profile: "default"
+2026-05-27T21:24:47.979+07:00  INFO 2948 --- [Session12_IT211_Bai2] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-27T21:24:47.984+07:00  INFO 2948 --- [Session12_IT211_Bai2] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2026-05-27T21:24:48.115+07:00  INFO 2948 --- [Session12_IT211_Bai2] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-05-27T21:24:48.115+07:00  INFO 2948 --- [Session12_IT211_Bai2] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-27T21:24:48.115+07:00  INFO 2948 --- [Session12_IT211_Bai2] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-27T21:24:48.152+07:00  INFO 2948 --- [Session12_IT211_Bai2] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 302 ms
+2026-05-27T21:24:48.210+07:00  INFO 2948 --- [Session12_IT211_Bai2] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-27T21:24:48.305+07:00  INFO 2948 --- [Session12_IT211_Bai2] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-27T21:24:48.305+07:00  INFO 2948 --- [Session12_IT211_Bai2] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2026-05-27T21:24:48.330+07:00  INFO 2948 --- [Session12_IT211_Bai2] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@622eccf9
+2026-05-27T21:24:48.330+07:00  INFO 2948 --- [Session12_IT211_Bai2] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2026-05-27T21:24:48.330+07:00  WARN 2948 --- [Session12_IT211_Bai2] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-05-27T21:24:48.337+07:00  INFO 2948 --- [Session12_IT211_Bai2] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/ss12_bai2_it211?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 9.7
+	Default catalog/schema: ss12_bai2_it211/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-27T21:24:48.366+07:00  INFO 2948 --- [Session12_IT211_Bai2] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-27T21:24:48.366+07:00  INFO 2948 --- [Session12_IT211_Bai2] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-27T21:24:48.414+07:00  WARN 2948 --- [Session12_IT211_Bai2] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-27T21:24:48.569+07:00  INFO 2948 --- [Session12_IT211_Bai2] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-05-27T21:24:48.570+07:00  INFO 2948 --- [Session12_IT211_Bai2] [restartedMain] c.e.s.Session12It211Bai2Application      : Started Session12It211Bai2Application in 0.752 seconds (process running for 336.99)
+2026-05-27T21:24:48.576+07:00  INFO 2948 --- [Session12_IT211_Bai2] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-05-27T21:24:49.954+07:00  INFO 2948 --- [Session12_IT211_Bai2] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2026-05-27T21:24:49.956+07:00  INFO 2948 --- [Session12_IT211_Bai2] [Thread-5] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-27T21:24:50.119+07:00  INFO 2948 --- [Session12_IT211_Bai2] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-27T21:24:50.122+07:00  INFO 2948 --- [Session12_IT211_Bai2] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-27T21:24:50.123+07:00  INFO 2948 --- [Session12_IT211_Bai2] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2026-05-27T21:24:50.137+07:00  INFO 2948 --- [Session12_IT211_Bai2] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2026-05-27T21:24:50.251+07:00  INFO 2948 --- [Session12_IT211_Bai2] [restartedMain] c.e.s.Session12It211Bai2Application      : Starting Session12It211Bai2Application using Java 17.0.12 with PID 2948 (C:\Users\h\Downloads\Session12_IT211_Bai2\build\classes\java\main started by h in C:\Users\h\Downloads\Session12_IT211_Bai2)
+2026-05-27T21:24:50.253+07:00  INFO 2948 --- [Session12_IT211_Bai2] [restartedMain] c.e.s.Session12It211Bai2Application      : No active profile set, falling back to 1 default profile: "default"
+2026-05-27T21:24:50.517+07:00  INFO 2948 --- [Session12_IT211_Bai2] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-27T21:24:50.521+07:00  INFO 2948 --- [Session12_IT211_Bai2] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2026-05-27T21:24:50.650+07:00  INFO 2948 --- [Session12_IT211_Bai2] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-05-27T21:24:50.651+07:00  INFO 2948 --- [Session12_IT211_Bai2] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-27T21:24:50.651+07:00  INFO 2948 --- [Session12_IT211_Bai2] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-27T21:24:50.685+07:00  INFO 2948 --- [Session12_IT211_Bai2] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 428 ms
+2026-05-27T21:24:50.735+07:00  INFO 2948 --- [Session12_IT211_Bai2] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-27T21:24:50.808+07:00  INFO 2948 --- [Session12_IT211_Bai2] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-27T21:24:50.811+07:00  INFO 2948 --- [Session12_IT211_Bai2] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2026-05-27T21:24:50.821+07:00  INFO 2948 --- [Session12_IT211_Bai2] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@764a1289
+2026-05-27T21:24:50.821+07:00  INFO 2948 --- [Session12_IT211_Bai2] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2026-05-27T21:24:50.831+07:00  WARN 2948 --- [Session12_IT211_Bai2] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-05-27T21:24:50.831+07:00  INFO 2948 --- [Session12_IT211_Bai2] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/ss12_bai2_it211?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 9.7
+	Default catalog/schema: ss12_bai2_it211/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-27T21:24:50.861+07:00  INFO 2948 --- [Session12_IT211_Bai2] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-27T21:24:50.862+07:00  INFO 2948 --- [Session12_IT211_Bai2] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-27T21:24:50.901+07:00  WARN 2948 --- [Session12_IT211_Bai2] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-27T21:24:51.033+07:00  INFO 2948 --- [Session12_IT211_Bai2] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-05-27T21:24:51.041+07:00  INFO 2948 --- [Session12_IT211_Bai2] [restartedMain] c.e.s.Session12It211Bai2Application      : Started Session12It211Bai2Application in 0.84 seconds (process running for 339.457)
+2026-05-27T21:24:51.041+07:00  INFO 2948 --- [Session12_IT211_Bai2] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-05-27T21:24:52.066+07:00  INFO 2948 --- [Session12_IT211_Bai2] [http-nio-8080-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-27T21:24:52.066+07:00  INFO 2948 --- [Session12_IT211_Bai2] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-27T21:24:52.067+07:00  INFO 2948 --- [Session12_IT211_Bai2] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-05-27T21:24:52.221+07:00  INFO 2948 --- [Session12_IT211_Bai2] [http-nio-8080-exec-4] c.e.s.controller.CourseController        : Request: POST /api/courses - Đang thêm mới: Java Spring Boot Master
+2026-05-27T21:24:52.221+07:00  INFO 2948 --- [Session12_IT211_Bai2] [http-nio-8080-exec-4] c.e.s.service.CourseService              : Khóa học 'Java Spring Boot Master' đã được tạo thành công.
